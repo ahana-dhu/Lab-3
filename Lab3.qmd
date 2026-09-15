@@ -1,0 +1,16 @@
+---
+title: "Lab3"
+format: html
+editor: visual
+---
+
+## Question-1
+">>> /opt/homebrew/bin/git pull
+Already up to date."
+Anything we want from Github already exists in this file.
+
+```{r}
+palmerpenguins::penguins
+```
+
+
