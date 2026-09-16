@@ -9,3 +9,7 @@ editor: visual
 The message that git gives is "Already up to date."
 This is because, as we try to pull from the public repo, all the changes made
 there have already been applied here.
+
+## Question-2
+"install.packages()" should go in the console because I am installing the
+package(s) to my computer, not the document.
