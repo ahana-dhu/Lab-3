@@ -1,0 +1,11 @@
+---
+title: "ST115-Lab-3"
+author: "Ahana Dhungel"
+format: pdf
+editor: visual
+---
+
+## Question-1
+The message that git gives is "Already up to date."
+This is because, as we try to pull from the public repo, all the changes made
+there have already been applied here.
