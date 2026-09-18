@@ -6,14 +6,38 @@ editor: visual
 ---
 
 ## Question-1
-The message that git gives is "Already up to date."
-This is because, as we try to pull from the public repo, all the changes made
-there have already been applied here.
+
+The message that git gives is "Already up to date." This is because, as we try to pull from the public repo, all the changes made there have already been applied here.
 
 ## Question-2
-"install.packages()" should go in the console because I am installing the
-package(s) to my computer, not the document.
+
+"install.packages()" should go in the console because I am installing the package(s) to my computer, not the document.
 
 ## Question-3
-"library()" should go in the .qmd document so that the package can be loaded in
-for use in the document.
+
+"library()" should go in the .qmd document so that the package can be loaded in for use in the document.
+
+## Question-4
+
+This code did not work because it is trying to pull "penguins" from "palmerpenguins," but since I haven't installed "palmerpenguins", it is unable to give me an output.
+
+## Question-5
+
+The second friend is correct. Packages installed are used in a document once the computer knows that they are related to the document. You can let the computer know that by running library(palmerpenguins) to allow it access to the package.
+
+## Question-6
+
+```{r}
+#| warning: false 
+  
+library("dplyr")
+```
+
+## Question-7
+
+```{r}
+iris2 <- arrange(iris, Petal.Length)
+head(iris2)
+```
+
+## Question-8
